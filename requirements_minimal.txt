@@ -1,0 +1,25 @@
+# Ultra-minimal requirements for Streamlit Cloud - no version conflicts
+streamlit
+pandas
+plotly
+python-dotenv
+
+# LangChain - let pip resolve all dependencies automatically  
+langchain
+langchain-google-genai
+google-generativeai
+
+# Basic document processing
+PyPDF2
+python-docx
+docx2txt
+
+# Text processing
+requests
+beautifulsoup4
+rank-bm25
+fuzzywuzzy
+
+# Utilities  
+nest_asyncio
+tqdm
